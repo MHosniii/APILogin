@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="LoginWebAPI.LoginPage">
+    <ContentPage.Content>
+        <StackLayout Padding="40" VerticalOptions="Center" HorizontalOptions="FillAndExpand" >
+            <Image
+                Source="school.png" Aspect="AspectFit" WidthRequest="150" HeightRequest="150"
+                ></Image>
+            <Entry Placeholder="Username"></Entry>
+            <Entry Placeholder="Password" IsPassword="True" ></Entry>
+            <Button
+                BorderWidth="2"
+                Text="Login"
+                VerticalOptions="Center" 
+                CornerRadius="50"
+                BorderColor="DarkBlue"
+                BackgroundColor="Transparent" 
+                TextColor="DarkBlue"
+                >
+             </Button>
+            
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

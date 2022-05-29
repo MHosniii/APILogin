@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="LoginWebAPI.RegisterPage">
+    <ContentPage.Content>
+        <StackLayout VerticalOptions="Center" HorizontalOptions="FillAndExpand" >
+            <Entry Placeholder="Username"></Entry>
+            <Entry Placeholder="Password" IsPassword="True" ></Entry>
+            <Entry Placeholder="Confirm Password" IsPassword="True" ></Entry>
+            <Button
+                BorderColor="DarkBlue"
+                BackgroundColor="Transparent"
+                Text="Register"
+                ></Button>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
